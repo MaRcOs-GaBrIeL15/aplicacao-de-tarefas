@@ -1,0 +1,28 @@
+.lista-tarefas{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tarefa{
+    display: flex;
+    padding: 4px 62px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.botoes-tarefa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+
+button{
+    width: max-content;
+}
+
+.concluida{
+    border-color: lightgreen;
+}

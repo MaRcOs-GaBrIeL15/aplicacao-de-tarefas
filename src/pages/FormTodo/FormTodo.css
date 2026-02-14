@@ -1,0 +1,28 @@
+
+.caixa-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+width: 60;
+display: flex;
+flex-direction: column;
+align-items: start;
+border: 1px solid black;
+padding: 20px 24px;
+}
+
+label{
+    margin-top: 20px;
+}
+
+input{
+    width: 40vw;
+}
+
+.submit{
+    margin-top: 20px;
+}
+
